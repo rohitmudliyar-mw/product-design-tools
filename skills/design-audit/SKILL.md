@@ -22,6 +22,24 @@ Detect or ask for:
 2. **Input** — Screenshot (preferred) or URL
 3. **Screen name** — e.g., "Shop Page", "PDP - Nutrimix"
 
+### Brand Detection (Mandatory)
+
+Try to detect the brand from the screenshot or URL:
+- **Little Joys** — look for: "little joys" logo, playful/organic shapes, kids/parents imagery, Spinach Green (#009853) CTAs, Banana Yellow accents, children's nutrition products
+- **Man Matters** — look for: "manmatters" wordmark, Electric Blue (#005995) CTAs, men's health products, Athena design system patterns
+- **Be Bodywise** — look for: "be bodywise" logo, "Bella" mascot, Blue Deep (#005995) CTAs, women's skincare/haircare/wellness products, Lucide icons
+
+**If you cannot confidently identify the brand**, do NOT guess. Stop and ask:
+
+> "I couldn't detect which brand this screen belongs to. Which brand should I audit this for?
+> 1. **Little Joys** — children's nutrition
+> 2. **Man Matters** — men's health
+> 3. **Be Bodywise** — women's health & skincare
+>
+> Please pick one so I can load the right brand context, scoring weights, and design system rules."
+
+**Never proceed without a confirmed brand.** The audit is meaningless without the brand context — scoring weights, design system rules, and personas all differ per brand.
+
 ### Input Handling
 
 **Screenshots are preferred** — they capture the exact state, animations, and content the user sees. But URLs are also accepted.
