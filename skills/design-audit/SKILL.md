@@ -1,12 +1,6 @@
 ---
 name: design-audit
-description: >
-  Performs a comprehensive UX, UI & Brand audit with structured scoring across 8 domains,
-  generating a PDF scorecard with spider chart. Use this skill whenever the user wants to
-  audit, review, score, or evaluate the UX, UI, or brand quality of a screen, page, website,
-  or design. Triggers on phrases like "audit this", "score this design", "UX review",
-  "UI review", "rate this screen", "evaluate this design", "design audit", "brand compliance
-  check", or when the user shares a URL, screenshot, or image asking for design quality feedback.
+description: Use this skill whenever the user wants to audit, review, score, rate, critique, evaluate, or get feedback on the UX, UI, or brand quality of a screen, page, website, app, or mobile view — produces a structured 1–5 scorecard across 8 domains (usability, visual design, brand compliance, content, accessibility, trust, conversion, emotional design) and a PDF report with a spider chart for Mosaic Wellness brands (Little Joys, Man Matters, Be Bodywise). Triggers on "audit this", "score this design", "UX review", "UI review", "rate this screen", "evaluate this design", "design audit", "brand compliance check", "what do you think of this design", or whenever the user shares a screenshot, URL, or Figma link asking for design feedback — use this skill even if they don't explicitly say the word "audit".
 ---
 
 # Design Audit — UX, UI & Brand Scoring
